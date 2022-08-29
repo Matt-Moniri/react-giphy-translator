@@ -5,7 +5,6 @@ function Giphy(props) {
         <iframe
           onLoad={() => {
             props.setIsLoading(false);
-            console.log("setIsLoading(false)");
           }}
           title="giphyGif"
           src={props.giphyUrl}

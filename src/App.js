@@ -13,7 +13,6 @@ function App() {
     setGiphyUrl(null);
     setIsLoading(true);
     let success_callback = (response) => {
-      console.log(response);
       if (response.status != 200) {
         setError(
           `Server responded an error. Status code= ${response.status}. Status text=${response.statusText}`
