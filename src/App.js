@@ -2,8 +2,11 @@ import React from "react";
 import InputForm from "./InputForm.js";
 import Giphy from "./Giphy.js";
 const apiKey = process.env.REACT_APP_GIPHY_API_KEY;
+const aa = process.env.AA;
 function App() {
   console.log("apiKey=", apiKey);
+  console.log("AA=", aa);
+
   const [giphyUrl, setGiphyUrl] = React.useState(null);
   const [error, setError] = React.useState(null);
   const [isLoading, setIsLoading] = React.useState(false);
