@@ -2,13 +2,14 @@ import React from "react";
 import InputForm from "./InputForm.js";
 import Giphy from "./Giphy.js";
 const apiKey = process.env.REACT_APP_GIPHY_API_KEY;
+const againKey = process.env.REACT_APP_GIPHY_API_KEY;
 const aa = process.env.AA;
 const bb = process.env.BB;
 function App() {
   console.log("apiKey=", apiKey);
   console.log("AA=", aa);
   console.log("BB=", bb);
-  console.log("something");
+  console.log("againKey=", againKey);
 
   const [giphyUrl, setGiphyUrl] = React.useState(null);
   const [error, setError] = React.useState(null);
