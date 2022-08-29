@@ -7,7 +7,8 @@ const bb = process.env.BB;
 function App() {
   console.log("apiKey=", apiKey);
   console.log("AA=", aa);
-  console.log("bb=", bb);
+  console.log("BB=", bb);
+  console.log("something");
 
   const [giphyUrl, setGiphyUrl] = React.useState(null);
   const [error, setError] = React.useState(null);
