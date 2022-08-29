@@ -3,10 +3,12 @@ import InputForm from "./InputForm.js";
 import Giphy from "./Giphy.js";
 const apiKey = process.env.REACT_APP_GIPHY_API_KEY;
 const againKey = process.env.REACT_APP_GIPHY_API_KEY;
+const SITE = process.env.SITE;
 const aa = process.env.AA;
 const bb = process.env.BB;
 function App() {
   console.log("apiKey=", apiKey);
+  console.log("SITE=", SITE);
   console.log("AA=", aa);
   console.log("BB=", bb);
   console.log("againKey=", againKey);
